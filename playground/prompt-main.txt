@@ -1,0 +1,57 @@
+* Main
+Now let us add many more things to the main program
+Here is the specification for the main.
+
+Setup:
+  Read in the file data.csv into a pandas dataframe.
+  In the variable variable_names , store the column names.
+ 
+  Read in the ground truth problem description from the text file: data_relationships.txt
+
+
+Display a message to the user to the frontend:
+  "You will be practicing your analytical skills, on a data understanding task. 
+ Your goal is to uncover structure in the data - what data variables depend on what other data variables?.
+ - At any point, you can ask the system to plot any variables against any other.
+ - If you guess there is any dependency in the data, you should record it as a hypothesis.
+ - If you believe you have seen the right data to confirm the hypothesis, you should say the hypothesis is confirmed.  You will then get feedback.
+
+The variables available in the data are:  <variable_names> (from the dataset.csv file) 
+"
+
+Now enter a loop, until the problem is solved or the user says 'restart'.
+Set hypothesis_responses to the empty list. 
+
+<LOOP>
+* Ask the user for what pairs of variables he wants to plot, e.g. "Plot x vs y."
+* Call the openAI API with a prompt:
+"extract a list of strings, representing variable names the user wants to plot.   
+ The available variables are:  <variable_names> . If the user makes a small spelling error in the variables, correct it.  Preserve the variable order given by the user."
+* call the plotting function with the variables extracted by the LLM 
+
+* display a message to the user:
+"Can you form or confirm any hyphothesis about the data?".
+* Append the response to hypothesis_responses
+
+* call an LLM, with the user_response , with the prompt:
+   "We have a data science with data generated from Python with numpy code as follows:
+     <problem_description>
+
+     The user has formulated the following hypthoses, in order
+     <hypothesis_responses> 
+
+ If the last hypothesis says "restart" exit the loop and reinitialize.
+
+    If the last hypothesis_response forms a hypothesis (but does not confirm it) 
+      return a paraphrase of the string "How would you check or verify this hypothesis"
+   
+  If the last hypothesis_response confirms a hypothesis, check it against the problem description - is it correct?  If so return the correctly verified hypothesis, in the format  (correctness_message, verified_dependencies)
+where verified_dependencies = ["dependent_variable", "independent_variable1 identified by the user in last turn", ..., "independent_variableN identified by the user in the last turn"]  or return an empty list if no relationship is correct.    The correctness message is an assessment if the user last turn is correct, or wrong, or on the right track.
+
+Display the correctness_message.
+Merge the verified dependencies (if any) with previous verified dependencies.
+Calculate a score using the dependency_score function. 
+
+ Repeat from the top of the loop.
+</LOOP>
+

@@ -1,0 +1,4 @@
+venv
+.ipynb_checkpoints
+chat-frontend/node_modules/.cache*
+node_modules/

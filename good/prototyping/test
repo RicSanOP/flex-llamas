@@ -1,0 +1,1 @@
+* * * * * ps -aux | grep "ollama\sserve" || OLLAMA_HOST=0.0.0.0:42069 OLLAMA_ORIGINS=* OLLAMA_DEBUG=1 ollama serve

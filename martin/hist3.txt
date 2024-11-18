@@ -1,0 +1,1000 @@
+ 1030  mkdir martin-tmp.txt
+ 1031  mv martin-tmp.txt martin
+ 1032  cd martin
+ 1033  history > hist.txt
+ 1034  m hist.txt 
+ 1035  less hist.txt 
+ 1036  clear
+ 1037  cd playground/
+ 1038  cat chat-frontend/build/static/
+ 1039  cat chat-frontend/build/static/js/main.40267aae.js
+ 1040  clear
+ 1041  ls
+ 1042  cat data_relationships.txt 
+ 1043  ls da*
+ 1044  mv da* playground
+ 1045  pwd
+ 1046  lln
+ 1047  ls -ltr
+ 1048  mv prompt-main.txt playground/
+ 1049  cd prototyping/
+ 1050  ls
+ 1051  cat gen_abcd.ipynb 
+ 1052  ls
+ 1053  cd ..
+ 1054  ls
+ 1055  cd playground/
+ 1056  ls data-big.csv 
+ 1057  cat data-big.csv 
+ 1058  cat data_relationships.txt 
+ 1059  ls -a
+ 1060  mkdir playground
+ 1061  cd playground/
+ 1062  mv ~/main-345.zip .
+ 1063  unzip
+ 1064  sudo apt install unzip
+ 1065  unzip main-345.zip 
+ 1066  ls
+ 1067  cd main
+ 1068  ls
+ 1069  cd ..
+ 1070  ls chat-frontend/
+ 1071  cat chat-frontend/README.md 
+ 1072  ls
+ 1073  cd chat-frontend/
+ 1074  ls
+ 1075  ls src/
+ 1076  vim src/App.js
+ 1077  ls
+ 1078  ls src
+ 1079  vim src/index.js
+ 1080  ls
+ 1081  cd ..
+ 1082  ls
+ 1083  ls main
+ 1084  vim main/func.py 
+ 1085  vim main/main.py 
+ 1086  cd ..
+ 1087  ls
+ 1088  cd playground/
+ 1089  ls
+ 1090  ls main
+ 1091  mv main/main.py main/main.py.old
+ 1092  mv main_5am.py main/main.py
+ 1093  cd main
+ 1094  python3 main.py
+ 1095  cd prototyping/
+ 1096  ls
+ 1097  . ./venv/bin/activate
+ 1098  python -m jupyter notebook
+ 1099  cd playground/main
+ 1100  ls
+ 1101  mkdir venv
+ 1102  ls
+ 1103  python3 -m venv venv
+ 1104  source venv/bin/activate
+ 1105  pip3 install -r requirements.txt 
+ 1106  python3 main.py 
+ 1107  ls ../
+ 1108  pwd
+ 1109  python3 main.py 
+ 1110  cd playground/chat-frontend/
+ 1111  npm
+ 1112  node
+ 1113  sudo apt install nodejs
+ 1114  sudo apt install npm
+ 1115  npm start
+ 1116  npm install
+ 1117  npm start
+ 1118  clear
+ 1119  cp playground/* flex-llamas/
+ 1120  cp playground/* flex-llamas/ -r
+ 1121  ls flex-llamas/
+ 1122  git status
+ 1123  c ]d flex-llamas/
+ 1124  cd flex-llamas/
+ 1125  ls
+ 1126  git status
+ 1127  ls -a
+ 1128  cd main
+ 1129  ls -a
+ 1130  cd ..
+ 1131  ls
+ 1132  git status
+ 1133  git add .
+ 1134  cat .gitignore 
+ 1135  git commit -C "a working program"
+ 1136  git commit -c "a working program"
+ 1137  git commit -m "a working program"
+ 1138  ls
+ 1139  cat start_ollama_server.sh 
+ 1140  ls martin
+ 1141  ls
+ 1142  ls playground
+ 1143  ls flex-llamas/
+ 1144  clear
+ 1145  tree
+ 1146  tree -d 2
+ 1147  celar
+ 1148  tree -h
+ 1149  tree --help
+ 1150  tree --help | grep depth
+ 1151  tree --help | grep deep
+ 1152  tree -L 2
+ 1153  tree -L 1
+ 1154  clear
+ 1155  tree -L 1
+ 1156  tree flex-llamas/ -L 1
+ 1157  tree flex-llamas/ -L 2
+ 1158  ls
+ 1159  cd prototyping/
+ 1160  ls
+ 1161  source venv/bin/activate
+ 1162  ls
+ 1163  vim extremely_bad_tui.py
+ 1164  exit
+ 1165  ls
+ 1166  exit
+ 1167  ls
+ 1168  exit
+ 1169  ls
+ 1170  cd flex-llamas/
+ 1171  ls
+ 1172  . venv/bin/activate
+ 1173  cd main
+ 1174  python main.py
+ 1175  ls
+ 1176  cd ..
+ 1177  python main.py
+ 1178  cd playground/
+ 1179  ls
+ 1180  npm start
+ 1181  ls
+ 1182  npm start
+ 1183  ls
+ 1184  cd ..
+ 1185  cd flex-llamas/
+ 1186  lln
+ 1187  ls -ltr
+ 1188  npm start
+ 1189  cd chat-frontend/
+ 1190  ls
+ 1191  npm start
+ 1192  ls
+ 1193  ls
+ 1194  find . -mtime +2
+ 1195  find . -mtime +2 | m
+ 1196  find . -mtime +2 | less
+ 1197  ls
+ 1198  cd prototyping/
+ 1199  lln
+ 1200  ls -ltr
+ 1201  cd ..
+ 1202  ls
+ 1203  cd playground/
+ 1204  ls -ltr
+ 1205  ls
+ 1206  cd main
+ 1207  d
+ 1208  ls
+ 1209  m func.py
+ 1210  less func.py
+ 1211  ls
+ 1212  u
+ 1213  d
+ 1214  ls
+ 1215  cd ..
+ 1216  ls
+ 1217  cd main/
+ 1218  python3 main
+ 1219  ls
+ 1220  .  .venv/bin/activate
+ 1221  .  venv/bin/activate
+ 1222  ls
+ 1223  python3 main.py 
+ 1224  cd ~/flex-llamas/
+ 1225  ls
+ 1226  systemctl | grep daemon
+ 1227  systemctl
+ 1228  ls
+ 1229  exit
+ 1230  ollama serve
+ 1231  OLLAMA_HOST=127.0.0.1 ollama zerve
+ 1232  OLLAMA_HOST=127.0.0.1 ollama serve
+ 1233  OLLAMA_HOST=127.0.0.1:42069 ollama serve
+ 1234  OLLAMA_HOST=127.0.0.1:42069 ollama serve -h
+ 1235  OLLAMA_HOST=127.0.0.1:42069 OLLAMA_DEBUG=1 ollama serve -h
+ 1236  OLLAMA_HOST=127.0.0.1:42069 OLLAMA_DEBUG=1 ollama serve
+ 1237  sudo ufw allow 11434/tcp
+ 1238  ollama serve
+ 1239  sudo ufw allow 8000/tcp
+ 1240  sudo ufw allow 42069/tcp
+ 1241  OLLAMA_HOST=127.0.0.1:42069 OLLAMA_DEBUG=1 ollama serve
+ 1242  ollama --help
+ 1243  ollama list
+ 1244  ollama run llama3.2:latest
+ 1245  OLLAMA_HOST=127.0.0.1:42069 OLLAMA_DEBUG=1 ollama serve
+ 1246  ollama list
+ 1247  OLLAMA_HOST=127.0.0.1:42069 OLLAMA_DEBUG=1 ollama serve ollama3.2:latest
+ 1248  OLLAMA_HOST=127.0.0.1:42069 OLLAMA_DEBUG=1 ollama serv
+ 1249  OLLAMA_HOST=127.0.0.1:42069 OLLAMA_DEBUG=1 ollama serve
+ 1250  ollama pull llama3.2:latest
+ 1251  OLLAMA_HOST=127.0.0.1:42069 OLLAMA_DEBUG=1 ollama serve
+ 1252  ls
+ 1253  OLLAMA_HOST=0.0.0.0:42069 OLLAMA_ORIGINS=* OLLAMA_DEBUG=1 ollama serve
+ 1254  ollama --help
+ 1255  ollama show
+ 1256  ollama show ollama3.2:latest
+ 1257  ollama pull ollama3.2:latest
+ 1258  ollama pull ollama3.2
+ 1259  ls
+ 1260  ls compute-boilerplate/
+ 1261  ls compute-boilerplate/.ollama
+ 1262  ls
+ 1263  which ollama
+ 1264  ollama pull ollama3.2:latest
+ 1265  ollama pull llama3.2:latest
+ 1266  ollama pull --help
+ 1267  pwd
+ 1268  ls ~
+ 1269  ls ~/.ollama
+ 1270  ls ~/.ollama/models
+ 1271  pwd
+ 1272  ls ~/.ollama/models
+ 1273  ls ~/.ollama/models/manifests
+ 1274  ls
+ 1275  mv .ollama .ollama_old
+ 1276  ollama pull llama3.2:latest
+ 1277  ls .ollama
+ 1278  sudo ls
+ 1279  ls
+ 1280  ls compute-boilerplate/
+ 1281  ls flex-llamas/
+ 1282  ls
+ 1283  curl -fsSL https://ollama.com/install.sh | sh
+ 1284  ls .ollama
+ 1285  ollama pull llama3.2:latest
+ 1286  ls .ollama
+ 1287  find / -name manifest
+ 1288  sudo find / -name manifest | grep ollama
+ 1289  sudo find / -name manifest | grep llama
+ 1290  sudo find / -name manifest
+ 1291  ls /usr/bin/manifest
+ 1292  ls /usr/share
+ 1293  ls /usr/share/ollama
+ 1294  ls /usr/share/ollama -lah
+ 1295  ls /usr/share/ollama/.ollama
+ 1296  ls /usr/share/ollama/.ollama/models
+ 1297  ln -s /usr/share/ollama/.ollama ~/.ollama
+ 1298  ollama serve llama3.
+ 1299  OLLAMA_HOST=0.0.0.0:42069 OLLAMA_ORIGINS=* OLLAMA_DEBUG=1 ollama serve
+ 1300  ls
+ 1301  echo "OLLAMA_HOST=0.0.0.0:42069 OLLAMA_ORIGINS=* OLLAMA_DEBUG=1 ollama serve" >> start_ollama_server.sh
+ 1302  ./start_ollama_server.sh
+ 1303  sudo chmod 777 start_ollama_server.sh 
+ 1304  ./start_ollama_server.sh
+ 1305  ps -aux | grep ollama
+ 1306  kill 32047
+ 1307  sudo kill 32047
+ 1308  ps -aux | grep ollama
+ 1309  crontab -e
+ 1310  sudo crontab -e
+ 1311  ls
+ 1312  sudo systemctl restart crond
+ 1313  ls
+ 1314  ps -aux | grep ollama
+ 1315  sudo kill 129323
+ 1316  ps -aux | grep ollama
+ 1317  sudo service cron reload
+ 1318  ps -aux | grep ollama
+ 1319  sudo kill 130905
+ 1320  ps -aux | grep ollama
+ 1321  ps -aux
+ 1322  ps -aux | grep ollama
+ 1323  ps -aux | grep root
+ 1324  ps -aux | grep Olld
+ 1325  ls
+ 1326  cat start_ollama_server.sh 
+ 1327  ./start_ollama_server.sh 
+ 1328  ls
+ 1329  pwd
+ 1330  ./start_ollama_server.sh 
+ 1331  cat start_ollama_server.sh 
+ 1332  ./start_ollama_server.sh 
+ 1333  ls
+ 1334  cd flex-llamas/
+ 1335  ls
+ 1336  cd main
+ 1337  grep -r . "playground"
+ 1338  grep "playground"
+ 1339  grep -r "playground" .
+ 1340  ls
+ 1341  grep --exclude-dir=venv -r "playground" .
+ 1342  exit
+ 1343  ls
+ 1344  ls flex-llamas/
+ 1345  cd flex-llamas/
+ 1346  ls
+ 1347  ls chat-frontend/
+ 1348  ls chat-frontend/build/
+ 1349  ls chat-frontend/build/static/
+ 1350  ls chat-frontend/build/static/js
+ 1351  exit
+ 1352  find . -name main.py -exec ls -l {};
+ 1353  find . -name main.py -exec ls -l {}\;
+ 1354  find . -name main.py -exec ls -l {} +
+ 1355  find . -name main.py -exec ls -l {} + | grep main/main
+ 1356  cd flex-llamas/
+ 1357  git status
+ 1358  ls
+ 1359  ls -l .git
+ 1360  touch .gitignore
+ 1361  git status
+ 1362  ls
+ 1363  flex-llamas/
+ 1364  ls
+ 1365  cd flex-llamas/
+ 1366  ls
+ 1367  vim .
+ 1368  ls
+ 1369  cd chat-frontend/
+ 1370  ls
+ 1371  grep --recursive --ignore-case "API"
+ 1372  ls
+ 1373  grep --recursive --ignore-case "API" src
+ 1374  ls
+ 1375  ls src
+ 1376  ls
+ 1377  vim src/App.js
+ 1378  ls
+ 1379  npm run build
+ 1380  ls
+ 1381  cd ls
+ 1382  ls src
+ 1383  vim src/App.js
+ 1384  npm run build
+ 1385  ls
+ 1386  ls src
+ 1387  cat index.js
+ 1388  ls
+ 1389  cat src/index.js
+ 1390  ls
+ 1391  ls src
+ 1392  vim App.js
+ 1393  vim src/App.js
+ 1394  ls
+ 1395  npm run build
+ 1396  vim src/App.js
+ 1397  npm run build
+ 1398  htop
+ 1399  htop
+ 1400  ls
+ 1401  cd flex-llamas/
+ 1402  ls
+ 1403  cd main
+ 1404  ls
+ 1405  vim main.py
+ 1406  ls
+ 1407  vim func.py 
+ 1408  ls
+ 1409  vim main.py
+ 1410  ls
+ 1411  cd ..
+ 1412  ls
+ 1413  cd chat-frontend/
+ 1414  ls
+ 1415  cd src
+ 1416  ls
+ 1417  vim index.js
+ 1418  which aider
+ 1419  ls
+ 1420  find generated_data.csv
+ 1421  find . -name generated_data.csv
+ 1422  cd prototyping/
+ 1423  mv generated_data.csv generated_data_org.csv
+ 1424  ls
+ 1425  cd flex-llamas/
+ 1426  ls
+ 1427  cd chat-frontend/
+ 1428  ls
+ 1429  npm run start
+ 1430  ls
+ 1431  npm run build
+ 1432  ls
+ 1433  tmxu ls
+ 1434  tmux ls
+ 1435  tmux attach -t britannio
+ 1436  ls
+ 1437  cd flex-llamas/
+ 1438  ls
+ 1439  cd chat-frontend/
+ 1440  npm run build
+ 1441  npm install react-icons
+ 1442  npm run build
+ 1443  ls
+ 1444  cd playground/
+ 1445  cd ..
+ 1446  cd flex-llamas/
+ 1447  ls
+ 1448  source venv/bin/activate
+ 1449  ls
+ 1450  tree .
+ 1451  tree . -L 2
+ 1452  ls
+ 1453  ls chat-frontend/
+ 1454  ls chat-frontend/buidl
+ 1455  ls chat-frontend/build
+ 1456  ls
+ 1457  ls main
+ 1458  vim main.py
+ 1459  vim main/main.py
+ 1460  ls
+ 1461  python3 -m pip install fastapi
+ 1462  ls
+ 1463  ls main
+ 1464  python3 -m pip install -r main/requirements.txt 
+ 1465  python3 -m pip install langchain_community
+ 1466  ls
+ 1467  cd main
+ 1468  ls
+ 1469  python3 main.py
+ 1470  ps -aux | grep main.py
+ 1471  ls
+ 1472  vim main.py
+ 1473  ls
+ 1474  cd ..
+ 1475  ksl
+ 1476  ls
+ 1477  cd hat
+ 1478  cd chat-frontend/
+ 1479  ls
+ 1480  npm build
+ 1481  npm run buidl
+ 1482  npm run build
+ 1483  ls
+ 1484  ls build
+ 1485  ls -lah build
+ 1486  cd ..
+ 1487  l
+ 1488  cd main/
+ 1489  ls
+ 1490  python main.py
+ 1491  ls
+ 1492  vim main.py
+ 1493  ls
+ 1494  python main.py
+ 1495  python main.py --help
+ 1496  python main.py
+ 1497  ps -aux | grep main.py
+ 1498  python main.py
+ 1499  python -m pip install ratelimit
+ 1500  python main.py
+ 1501  which uvicorn
+ 1502  uvicorn main.py
+ 1503  uvicorn main:main.py
+ 1504  ls
+ 1505  vim main.py
+ 1506  uvicorn main:app
+ 1507  uvicorn main:app --port=8080
+ 1508  ls /home/nebius/flex-llamas/chat-frontend/build/
+ 1509  ls /home/nebius/flex-llamas/chat-frontend/build/static/
+ 1510  python main.py
+ 1511  ls
+ 1512  vim main.py
+ 1513  python main.py
+ 1514  ls
+ 1515  cd flex-llamas/
+ 1516  ls
+ 1517  cd main
+ 1518  ls
+ 1519  source venv/bin/activate
+ 1520  ls
+ 1521  vim main.py
+ 1522  ls
+ 1523  vim main.py
+ 1524  grep -r . --exclude-dirs venv DataAssistant
+ 1525  grep -r . --exclude-dir venv DataAssistant
+ 1526  grep -r --exclude-dir venv "Data Assistant"
+ 1527  ls
+ 1528  vim main.py
+ 1529  ls
+ 1530  vim data_relationships.txt 
+ 1531  vim main.py
+ 1532  cd flex-llamas/
+ 1533  ls
+ 1534  cd main
+ 1535  . venv/bin/activate
+ 1536  ls
+ 1537  python main.py 
+ 1538  siyrce ../venv/bin/activate
+ 1539  source ../venv/bin/activate
+ 1540  python main.py 
+ 1541  ls
+ 1542  cd martin
+ 1543  ls
+ 1544  history > hist2.txt
+ 1545  less hist2.txt 
+ 1546  ls
+ 1547  flexllamas-2024
+ 1548  cd flexllamas-2024
+ 1549  ls
+ 1550  cd ..
+ 1551  tar cf flexllamas-2024.tar.gz flexllamas-2024
+ 1552  ll flexllamas-2024.tar.gz 
+ 1553  exit
+ 1554  ls
+ 1555  cd flex-llamas/
+ 1556  ls
+ 1557  git status
+ 1558  git add .
+ 1559  git status
+ 1560  git commit -m "FINAL PROGRESS"
+ 1561  git push
+ 1562  ls
+ 1563  git status
+ 1564  ls
+ 1565  cd chat-frontend/
+ 1566  ls
+ 1567  rm -rf node_modules/
+ 1568  git status
+ 1569  git add .
+ 1570  git commit -m nonode
+ 1571  git push
+ 1572  ls
+ 1573  git status
+ 1574  git reset head
+ 1575  git statu
+ 1576  git reset --hard HEAD~3
+ 1577  git status
+ 1578  ls
+ 1579  git status
+ 1580  cd ..
+ 1581  ls
+ 1582  git status
+ 1583  cd ..
+ 1584  ls
+ 1585  cd playground/
+ 1586  cd ..
+ 1587  ls
+ 1588  cp -rf playground/* flex-llamas/*
+ 1589  ls
+ 1590  cd flex-llamas/
+ 1591  git status
+ 1592  ls
+ 1593  cd ..
+ 1594  ls
+ 1595  cd playground/
+ 1596  ls
+ 1597  cd ..
+ 1598  cp -rf playground/chat-frontend flex-llamas/chat-frontend
+ 1599  ls
+ 1600  ls flex-llamas/
+ 1601  ls
+ 1602  ls playground/
+ 1603  cp -rf playground/main flex-llamas/main
+ 1604  cp playground/data.csv flex-llamas/data.csv
+ 1605  cp playground/data_relationships.txt flex-llamas/data_relationships.txt
+ 1606  ls
+ 1607  cd flex-llamas/
+ 1608  ls
+ 1609  git status
+ 1610  echo "venv" >> .gitignore
+ 1611  ls
+ 1612  git status
+ 1613  git add .
+ 1614  git commit -m "playground"
+ 1615  git status
+ 1616  ls
+ 1617  git push
+ 1618  ls
+ 1619  cd chat-frontend/
+ 1620  ls
+ 1621  git status
+ 1622  cd chat-frontend
+ 1623  ls
+ 1624  rm -rf node_modules/
+ 1625  git add .
+ 1626  git commit -m 'playground'
+ 1627  git push
+ 1628  ls
+ 1629  cd ..
+ 1630  cd chat-frontend/
+ 1631  ls
+ 1632  ls build
+ 1633  cd ..
+ 1634  ls
+ 1635  git status
+ 1636  git push
+ 1637  git reset chat-frontend/node_modules/.cache
+ 1638  git delete chat-frontend/node_modules/.cache
+ 1639  ls
+ 1640  cd chat-frontend
+ 1641  ls
+ 1642  git filter-branch --tree-filter "rm -rf node_modules" --prune-empty HEAD
+ 1643  ls
+ 1644  cd ..
+ 1645  git filter-branch --tree-filter "rm -rf chat-frontend/node_modules" --prune-empty HEAD
+ 1646  ls
+ 1647  git status
+ 1648  git psuh
+ 1649  git push
+ 1650  ls
+ 1651  cd main
+ 1652  ls
+ 1653  cd main
+ 1654  ls
+ 1655  cd ..
+ 1656  ls
+ 1657  cp main/* ./*
+ 1658  cp -r main/* ./*
+ 1659  ls
+ 1660  ls main
+ 1661  cp main/data.csv data.csv
+ 1662  cp main/data_relationships.txt data_relationships.txt
+ 1663  cp main/func.py func.py
+ 1664  cp main/main.py main.py
+ 1665  ls
+ 1666  cp main/requirements.txt requirements.txt
+ 1667  ls
+ 1668  git status
+ 1669  git add .
+ 1670  git commit -m 'some cleanup'
+ 1671  ls
+ 1672  cd main
+ 1673  ls
+ 1674  cd ..
+ 1675  ls
+ 1676  rm -rf main
+ 1677  l
+ 1678  git status
+ 1679  git add .
+ 1680  git commit -m 'more'
+ 1681  git status
+ 1682  ls
+ 1683  git log
+ 1684  git reset HEAD~3
+ 1685  git status
+ 1686  git add .
+ 1687  git commit -m "squash"
+ 1688  git push
+ 1689  cd ..
+ 1690  ls
+ 1691  cd chat-frontend/
+ 1692  ls
+ 1693  cd src
+ 1694  ls
+ 1695  vim App.js
+ 1696  ls
+ 1697  npm run build
+ 1698  cd ..
+ 1699  jls
+ 1700  ls
+ 1701  cd p
+ 1702  cd playground/
+ 1703  ls
+ 1704  cd cah
+ 1705  cd chat-frontend/
+ 1706  ls
+ 1707  ls src
+ 1708  vim src/App.js
+ 1709  s
+ 1710  npm run build
+ 1711  ls
+ 1712  cd ..
+ 1713  cp -r playground/chat-frontend/build flex-llamas/chat-frontend/build
+ 1714  cd flex-llamas/
+ 1715  git status
+ 1716  git add chat-frontend/
+ 1717  git status
+ 1718  git commit -m 'remigrate frontend'
+ 1719  git push
+ 1720  ls
+ 1721  cd main
+ 1722  ls
+ 1723  vim func.py 
+ 1724  git branches
+ 1725  ls
+ 1726  git reflog
+ 1727  ls
+ 1728  git reset --hard d602fe35
+ 1729  git status
+ 1730  ls
+ 1731  cd ..
+ 1732  ls
+ 1733  ls chat-frontend/
+ 1734  cd main/
+ 1735  ls
+ 1736  source venv/bin/activate
+ 1737  python3 main.py
+ 1738  python3 -m pip install ratelimit
+ 1739  python3 main.py
+ 1740  python3 -m pip install langchain_community
+ 1741  python3 main.py
+ 1742  ls
+ 1743  cd ..
+ 1744  ls
+ 1745  git filter-branch --tree-filter "rm -rf chat-frontend/node_modules" --prune-empty HEAD
+ 1746  git status
+ 1747  ls
+ 1748  git push
+ 1749  ls
+ 1750  git reflog
+ 1751  ls
+ 1752  cd main
+ 1753  ls
+ 1754  vim main.py
+ 1755  ls
+ 1756  vim func.py 
+ 1757  ls
+ 1758  git status
+ 1759  git add func.py
+ 1760  git commit -m 'remove openapi key'
+ 1761  ls
+ 1762  cd ..
+ 1763  ls
+ 1764  cd chat-frontend/
+ 1765  ls
+ 1766  cd ..
+ 1767  ls
+ 1768  git reflog
+ 1769  git reset
+ 1770  git status
+ 1771  ls
+ 1772  ls chat-frontend/
+ 1773  git commit -m 'hopefully cleaned'
+ 1774  git push
+ 1775  ls
+ 1776  git status
+ 1777  git add .
+ 1778  git commit -m 'cleanup swap'
+ 1779  git status
+ 1780  ls
+ 1781  cd ..
+ 1782  ls
+ 1783  git@github.com:SleepyJii/flexllamas-2024.git
+ 1784  git clone git@github.com:SleepyJii/flexllamas-2024.git
+ 1785  ls
+ 1786  cd flexllamas-2024/
+ 1787  ls
+ 1788  vim .gitignore
+ 1789  cd ..
+ 1790  cd flexllamas-2024/
+ 1791  mv .gitignore .gitignore2
+ 1792  cd ..
+ 1793  ls
+ 1794  cp -r flex-llamas flexllamas-2024
+ 1795  ls flexllamas-2024/
+ 1796  cd flexllamas-2024/
+ 1797  ls
+ 1798  cd flex-llamas/
+ 1799  ls
+ 1800  ls .git
+ 1801  rm -rf .git
+ 1802  ls
+ 1803  cd ..
+ 1804  s
+ 1805  git status
+ 1806  cd flex-llamas/
+ 1807  ls
+ 1808  cd ..
+ 1809  mv .gitignore2 .gitignore
+ 1810  git status
+ 1811  git add .
+ 1812  git status
+ 1813  git commit -m 'migrated'
+ 1814  git push
+ 1815  git push --set-upstream origin
+ 1816  ls
+ 1817  ssh-keygen --help
+ 1818  ssh-keygen
+ 1819  ls
+ 1820  vim token
+ 1821  git remote set-url origin
+ 1822  git remote set-url origin https://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@github.com/sleepyjii/flexllamas-2024.git
+ 1823  git push
+ 1824  git remote set-url origin https://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@github.com/SleepyJii/flexllamas-2024.git
+ 1825  git push
+ 1826  git push git@github.com:SleepyJii/flexllamas-2024.git
+ 1827  git push --set-upstream origin
+ 1828  ls
+ 1829  cd ..
+ 1830  ls
+ 1831  cd flex
+ 1832  cd flex-llamas/
+ 1833  ls
+ 1834  git reflog
+ 1835  git reset HEAD~15
+ 1836  git reflog
+ 1837  ls
+ 1838  echo $EDITOR
+ 1839  echo $GIT)EDITOR
+ 1840  ls
+ 1841  cd flex-llamas/
+ 1842  ls
+ 1843  cd main
+ 1844  ls
+ 1845  source venv/bin/activate
+ 1846  ls
+ 1847  python3 main.py
+ 1848  ls
+ 1849  cd prototyping/
+ 1850  ls
+ 1851  source venv/bin/activate
+ 1852  python -m jupyter notebook --port=42011
+ 1853  ls
+ 1854  cd flex-llamas
+ 1855  . venv/bin/activate
+ 1856  cd main
+ 1857  python main.py 
+ 1858  ls
+ 1859  cd martin
+ 1860  ls
+ 1861  cd ..
+ 1862  find . -name .ipynb 
+ 1863  find . -name \*.ipynb 
+ 1864  cd ..
+ 1865  cd -
+ 1866  cd prototyping/
+ 1867  ls
+ 1868  python -m jupyter notebook
+ 1869  . venv/bin/activate
+ 1870  python -m jupyter notebook
+ 1871  ls
+ 1872  cd flex-llamas/
+ 1873  ls
+ 1874  git status
+ 1875  cd .git/
+ 1876  ls
+ 1877  m config 
+ 1878  less config
+ 1879  c
+ 1880  ls
+ 1881  find . -name .git -type d
+ 1882  find . -name .git -type d -exec ls -l {} \;
+ 1883  find . -name .git -type d -exec ls -ld {} \;
+ 1884  cd flex-llamas/
+ 1885  git status
+ 1886  git log 
+ 1887  git show ed0d0bd | m
+ 1888  git show ed0d0bd | less
+ 1889  git show --name-only
+ 1890  git show --name-only ed0
+ 1891  git show --name-only 07c31493c0
+ 1892  git show --name-only ed0d0bd30ba294fd2dff5e221450bae17781a5ac
+ 1893  ls
+ 1894  cd ..
+ 1895  tar cf flex-llamas.tgz flex-llamas
+ 1896  cd flex-llamas
+ 1897  git checkout ed0d0bd30ba294fd2dff5e221450bae17781a5ac
+ 1898  git stash push -m "pyc file"
+ 1899  git checkout ed0d0bd30ba294fd2dff5e221450bae17781a5ac
+ 1900  cd ..
+ 1901  tar cf flex-llamas-commit1.tgz flex-llamas
+ 1902  ls
+ 1903  pwd
+ 1904  find . -name \*.ipynb 
+ 1905  cd prototyping
+ 1906  ls
+ 1907  ll
+ 1908  m gen_abcd.ipynb 
+ 1909  ls
+ 1910  m test
+ 1911  less lest
+ 1912  cat test
+ 1913  less llm_api/
+ 1914  yazi llm_api
+ 1915  cd llm_api
+ 1916  ls
+ 1917  ls -l
+ 1918  m use_api.py
+ 1919  alias m=less
+ 1920  m use_api.py 
+ 1921  m utils.py 
+ 1922  m __init__.py 
+ 1923  u
+ 1924  ls
+ 1925  u
+ 1926  ls
+ 1927  cd ..
+ 1928  ls
+ 1929  du -sh
+ 1930  mv venv ~/venv-prototyping
+ 1931  du -sh
+ 1932  cd ..
+ 1933  tar cf prototyping.tgz prototyping
+ 1934  mv ~/venv-prototyping prototyping/venv
+ 1935  ls
+ 1936  cd playground/
+ 1937  ls
+ 1938  ls -ltr
+ 1939  cd chat-frontend/
+ 1940  ls -ltr
+ 1941  cd ..
+ 1942  ls
+ 1943  cd chat-frontend/
+ 1944  ls -ltr
+ 1945  cd src
+ 1946  ls -ltr
+ 1947  cd ..
+ 1948  ls
+ 1949  cd ..
+ 1950  ls
+ 1951  cd compute-boilerplate
+ 1952  ls -ltr
+ 1953  du -sh
+ 1954  mkdir ~/t
+ 1955  mv __pycache__ ~/t
+ 1956  mv venv ~/t
+ 1957  ls logs
+ 1958  du -sh
+ 1959  cd ..
+ 1960  tar cf compute-boilerplate.tgz compute-boilerplate
+ 1961  ls
+ 1962  ls *tgz
+ 1963  rm flex-llamas-commit1.tgz 
+ 1964  mv flex-llamas.tgz flex-llamas.tar.gz
+ 1965  ls *tgz
+ 1966  ls
+ 1967  cd compute-boilerplate/
+ 1968  m config.py 
+ 1969  ls
+ 1970  exit
+ 1971  ls
+ 1972  cd flex-llamas/
+ 1973  ls
+ 1974  cd ..
+ 1975  ls
+ 1976  ./start_ollama_server.sh 
+ 1977  exit
+ 1978  tar xf good.tgz 
+ 1979  cd good
+ 1980  ls
+ 1981  cd main
+ 1982  python main.py 
+ 1983  ls
+ 1984  cd ..
+ 1985  ls
+ 1986  cd main
+ 1987  ls
+ 1988  cd ..
+ 1989  ls
+ 1990  find . -name requirements.txt
+ 1991  m main/requirements.txt
+ 1992  less main/requirements.txt
+ 1993  cat main/requirements.txt
+ 1994  cat compute-boilerplate/requirements.txt 
+ 1995  cd main
+ 1996  python -m venv flex-llamas-main
+ 1997  python3 -m venv flex-llamas-main
+ 1998  ls
+ 1999  . flex-llamas-main/bin/activate
+ 2000  pip install -r requirements.txt
+ 2001  cd good/main
+ 2002  ls
+ 2003  . flex-llamas-main/bin/activate
+ 2004  python main
+ 2005  cd ..
+ 2006  cd -
+ 2007  python main.py 
+ 2008  cd ..
+ 2009  ls find . -name ratelimit
+ 2010  cd ~/flex-llamas/
+ 2011  find . -name ratelimit
+ 2012  cd ..
+ 2013  ls
+ 2014  cd flexllamas-2024/
+ 2015  find . -name ratelimit
+ 2016  ls
+ 2017  cd flex-llamas/
+ 2018  ls
+ 2019  cd ~/good/main/
+ 2020  pip install ratelimit --dry-run
+ 2021  pip install ratelimit
+ 2022  cd ~/good/main/
+ 2023  python main.py 
+ 2024  pip install langchain_community
+ 2025  python main.py 
+ 2026  htop
+ 2027  cd ~/martin
+ 2028  ls
+ 2029  history > hist3.txt

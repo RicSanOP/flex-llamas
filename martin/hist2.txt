@@ -1,0 +1,1000 @@
+  564  }'
+  565  ls
+  566  cd prototyping/
+  567  ls
+  568  source venv/bin/activate
+  569  python3 -m pip install openai
+  570  ls
+  571  cd llm_api/
+  572  ls
+  573  vim use_api.py 
+  574  curl -fsSL https://ollama.com/install.sh | sh
+  575  ollama run llama3.2
+  576  tmux ls
+  577  tmux new -s brit
+  578  exit
+  579  ollama run llama3.2
+  580  ollama list
+  581  ollama --help
+  582  ollama run llama3.2:1b
+  583  ls
+  584  which ollama
+  585  ollama
+  586  ollama serve llama3.2
+  587  ollama serve
+  588  exit
+  589  OLLAMA_HOST=127.0.0.1:42069 ollama serve
+  590  OLLAMA_HOST=127.0.0.1:8000 ollama serve
+  591  ollama list
+  592  OLLAMA_HOST=127.0.0.1:8000 ollama serve
+  593  OLLAMA_HOST=127.0.0.1:42069 ollama serve
+  594  OLLAMA_HOST=127.0.0.1:8000 ollama serve
+  595  exit
+  596  ls
+  597  curl http://localhost:42069/api/generate -d '{
+  598    "model": "llama3.2",
+  599    "prompt":"Why is the sky blue?"
+  600  }'
+  601  curl http://localhost:42069/api/generate -d '{
+  602    "model": "llama3.2",
+  603    "prompt":"Why is the sky blue?"
+  604  }'
+  605  curl http://localhost:42069/api/generate -d '{
+  606    "model": "llama3.2",
+  607    "prompt":"Why is the sky blue?"
+  608  }'
+  609  curl http://localhost:42069/api/generate -d '{
+  610    "model": "llama3.2",
+  611    "prompt":"Why is the sky blue?"
+  612  }'
+  613  curl http://localhost:42069/v1/chat/completions     -H "Content-Type: application/json"     -d '{
+  614          "model": "llama3.2",
+  615          "messages": [
+  616              {
+  617                  "role": "system",
+  618                  "content": "You are a helpful assistant."
+  619              },
+  620              {
+  621                  "role": "user",
+  622                  "content": "Hello!"
+  623              }
+  624          ]
+  625      }'
+  626  ollama list
+  627  curl http://localhost:42069/v1/chat/completions     -H "Content-Type: application/json"     -d '{
+  628          "model": "llama3.2",
+  629          "messages": [
+  630              {
+  631                  "role": "system",
+  632                  "content": "You are a helpful assistant."
+  633              },
+  634              {
+  635                  "role": "user",
+  636                  "content": "Hello!"
+  637              }
+  638          ]
+  639      }'
+  640  curl http://localhost:42069/v1/chat/completions     -H "Content-Type: application/json"     -d '{
+  641          "model": "llama3.2:latest",
+  642          "messages": [
+  643              {
+  644                  "role": "system",
+  645                  "content": "You are a helpful assistant."
+  646              },
+  647              {
+  648                  "role": "user",
+  649                  "content": "Hello!"
+  650              }
+  651          ]
+  652      }'
+  653  curl http://localhost:42069/v1/chat/completions     -H "Content-Type: application/json"     -d '{
+  654          "model": "llama3.2:latest",
+  655          "messages": [
+  656              {
+  657                  "role": "system",
+  658                  "content": "You are a helpful assistant."
+  659              },
+  660              {
+  661                  "role": "user",
+  662                  "content": "Hello!"
+  663              }
+  664          ]
+  665      }'
+  666  curl http://localhost:42069/v1/chat/completions     -H "Content-Type: application/json"     -d '{
+  667          "model": "llama3.2:latest",
+  668          "messages": [
+  669              {
+  670                  "role": "system",
+  671                  "content": "You are a helpful assistant."
+  672              },
+  673              {
+  674                  "role": "user",
+  675                  "content": "Hello!"
+  676              }
+  677          ]
+  678      }'
+  679  curl http://localhost:42069/v1/chat/completions     -H "Content-Type: application/json"     -d '{
+  680          "model": "llama",
+  681          "messages": [
+  682              {
+  683                  "role": "system",
+  684                  "content": "You are a helpful assistant."
+  685              },
+  686              {
+  687                  "role": "user",
+  688                  "content": "Hello!"
+  689              }
+  690          ]
+  691      }'
+  692  exit
+  693  ollama serve
+  694  man ollama
+  695  ollama -h
+  696  ollama serve -h
+  697  OLLAMA_HOST=127.0.0.1:42069 ollama serve
+  698  ollama pull llama3.2
+  699  OLLAMA_HOST=127.0.0.1:42069 ollama serve
+  700  curl http://localhost:8000/v1/chat/completions     -H "Content-Type: application/json"     -d '{
+  701          "model": "llama",
+  702          "messages": [
+  703              {
+  704                  "role": "system",
+  705                  "content": "You are a helpful assistant."
+  706              },
+  707              {
+  708                  "role": "user",
+  709                  "content": "Hello!"
+  710              }
+  711          ]
+  712      }'
+  713  curl http://localhost:8000/v1/chat/completions     -H "Content-Type: application/json"     -d '{
+  714          "model": "llama3.2",
+  715          "messages": [
+  716              {
+  717                  "role": "system",
+  718                  "content": "You are a helpful assistant."
+  719              },
+  720              {
+  721                  "role": "user",
+  722                  "content": "Hello!"
+  723              }
+  724          ]
+  725      }'
+  726  curl http://localhost:8000/v1/chat/completions     -H "Content-Type: application/json"     -d '{
+  727          "model": "llama3.2:1b",
+  728          "messages": [
+  729              {
+  730                  "role": "system",
+  731                  "content": "You are a helpful assistant."
+  732              },
+  733              {
+  734                  "role": "user",
+  735                  "content": "Hello!"
+  736              }
+  737          ]
+  738      }'
+  739  exit
+  740  ollama 
+  741  ollama run
+  742  ollama run llama3.2
+  743  exit
+  744  ps
+  745  ps -a
+  746  cd compute-boilerplate/
+  747  source venv/bin/activate
+  748  ls
+  749  python3 main.py
+  750  top
+  751  netstat -nlp | grep 8000
+  752  apt install net-tools
+  753  sdo apt install net-tools
+  754  sudo apt install net-tools
+  755  netstat -nlp | grep 8000
+  756  kill --help
+  757  kill 93868
+  758  netstat -nlp | grep 8000
+  759  sudo netstat -nlp | grep 8000
+  760  ls
+  761  tmux list-sessions
+  762  tmux a jk2
+  763  tmux a -t jk2
+  764  exit
+  765  cd prototyping/
+  766  ls
+  767  source venv/bin/
+  768  source venv/bin/activate
+  769  python3 -m jupyter notebook --port=42011
+  770  OLLAMA_HOST=127.0.0.1:8000 ollama serve
+  771  ls
+  772  cd prototyping/
+  773  ls
+  774  source venv/bin/activate
+  775  curl http://localhost:8000/v1/chat/completions     -H "Content-Type: application/json"     -d '{
+  776          "model": "llama3.2",
+  777          "messages": [
+  778              {
+  779                  "role": "system",
+  780                  "content": "You are a helpful assistant."
+  781              },
+  782              {
+  783                  "role": "user",
+  784                  "content": "Hello!"
+  785              }
+  786          ]
+  787      }'
+  788  ollama list
+  789  which ollama
+  790  ls -l /usr/local/bin/ollama 
+  791  clear
+  792  systemctl --user oll
+  793  systemctl --user status ollama
+  794  systemctl status ollama
+  795  reboot
+  796  sudo reboot
+  797  ks
+  798  ls
+  799  cp -p jk_synth.ipynb martin.ipynb
+  800  python -m jupyter notebook
+  801  . ./venv/bin/activate
+  802  python -m jupyter notebook
+  803  tmux ls
+  804  man tmux
+  805  tmux attach brit
+  806  tmux attach -t brit
+  807  tmux new -s britannio
+  808  exit
+  809  ls
+  810  tmux list-sessions
+  811  tmux new-session -t jamesk
+  812  exit
+  813  ls
+  814  exit
+  815  ls
+  816  cd prototyping/
+  817  ls
+  818  source venv/bin/activate
+  819  ipython
+  820  ls
+  821  ls
+  822  ls
+  823  cd prototyping/
+  824  ls
+  825  clear
+  826  ps -aux | grep 42011
+  827  ls
+  828  curl http://localhost:42069/v1/chat/completions     -H "Content-Type: application/json"     -d '{
+  829          "model": "llama3.2",
+  830          "messages": [
+  831              {
+  832                  "role": "system",
+  833                  "content": "You are a helpful assistant."
+  834              },
+  835              {
+  836                  "role": "user",
+  837                  "content": "Hello!"
+  838              }
+  839          ]
+  840      }'
+  841  ollama list
+  842  sudo systemctl status ollama
+  843  curl http://127.0.0.1:42069/v1/chat/completions     -H "Content-Type: application/json"     -d '{
+  844          "model": "llama3.2",
+  845          "messages": [
+  846              {
+  847                  "role": "system",
+  848                  "content": "You are a helpful assistant."
+  849              },
+  850              {
+  851                  "role": "user",
+  852                  "content": "Hello!"
+  853              }
+  854          ]
+  855      }'
+  856  ollama run mistral
+  857  curl http://127.0.0.1:42069/v1/chat/completions     -H "Content-Type: application/json"     -d '{
+  858          "model": "mistral",
+  859          "messages": [
+  860              {
+  861                  "role": "system",
+  862                  "content": "You are a helpful assistant."
+  863              },
+  864              {
+  865                  "role": "user",
+  866                  "content": "Hello!"
+  867              }
+  868          ]
+  869      }'
+  870  curl http://127.0.0.1:42069/v1/chat/completions     -H "Content-Type: application/json"     -d '{
+  871          "model": "mistral",
+  872          "messages": [
+  873              {
+  874                  "role": "system",
+  875                  "content": "You are a helpful assistant."
+  876              },
+  877              {
+  878                  "role": "user",
+  879                  "content": "Hello!"
+  880              }
+  881          ]
+  882      }'
+  883  curl http://127.0.0.1:42069/v1/chat/completions     -H "Content-Type: application/json"     -d '{
+  884          "model": "llama3.2",
+  885          "messages": [
+  886              {
+  887                  "role": "system",
+  888                  "content": "You are a helpful assistant."
+  889              },
+  890              {
+  891                  "role": "user",
+  892                  "content": "Hello!"
+  893              }
+  894          ]
+  895      }'
+  896  curl localhost:42069
+  897  ollama show llama3.2
+  898  clear
+  899  ls
+  900  tmux list-sessions
+  901  tmux a -t jamesk
+  902  tmux a -s jamesk
+  903  tmux new-session -s jamesk
+  904  tmux a -s jamesk
+  905  tmux a -t jamesk
+  906  ls
+  907  edgenode -t calcutta -t wsl
+  908  exit
+  909  ls
+  910  cd prototyping/
+  911  ls
+  912  vim groq_apikey 
+  913  ls /home/nebius/.ollama/models
+  914  ls /home/nebius/.ollama/models/blobs
+  915  ls /home/nebius/.ollama/models -lah
+  916  ls /home/nebius/.ollama/models/blobs -lah
+  917  ls /home/nebius/.ollama/models -lah
+  918  ls
+  919  find / -name ollama3.2:latest
+  920  sudo find / -name ollama3.2:latest
+  921  ls /usr
+  922  ls /usr/et
+  923  ls /usr/etc
+  924  ls /usr/share
+  925  ls /usr/local
+  926  ls /usr/local/bin
+  927  ls /usr/local/sbin
+  928  ls /usr/local/share
+  929  ollama list
+  930  exit
+  931  sudo lsof -i -P -n | grep LISTEN.
+  932  ls
+  933  cd prototyping/
+  934  ls
+  935  clear
+  936  ls
+  937  source venv/bin/activate
+  938  which aider
+  939  python -m aider
+  940  python3 -m aider
+  941  python3 -m pip install aider
+  942  which aider
+  943  source venv/bin/activate
+  944  which aider
+  945  python3 -m aider
+  946  which aider
+  947  ls
+  948  ls venv
+  949  ls venv/bin
+  950  find venv -f aider
+  951  find venv aider
+  952  find -h
+  953  find --help
+  954  find venv -name aider
+  955  which aider
+  956  ls
+  957  aider
+  958  which aider
+  959  unsource
+  960  desource
+  961  source ~/.bashrc
+  962  ls
+  963  aider
+  964  ls
+  965  ls venv/li
+  966  ls venv/lib
+  967  ls venv/lib/python3.10/
+  968  ls venv/lib/python3.10/site-packages/
+  969  find venv --name aider
+  970  find venv -name aider
+  971  ls venv/lib/python3.10/site-packages/aider
+  972  ls venv/lib/python3.10/site-packages/aider/__init__.py
+  973  cat venv/lib/python3.10/site-packages/aider/__init__.py
+  974  python3 -m pip uninstall aider
+  975  ls
+  976  source venv/bin/activate
+  977  python3 -m pip install aider
+  978  ls
+  979  rm -rf ./venv/lib/python3.10/site-packages/aider
+  980  python3 -m pip install aider
+  981  python -m aider
+  982  python -m pip install aider
+  983  python -m pip install aider --force
+  984  python -m pip install aider
+  985  python -m aider
+  986  ls
+  987  vim extremely_bad_tui.py 
+  988  rm extremely_bad_tui.py 
+  989  vim bad_tui.py
+  990  cat ~/.bashrc
+  991  ls
+  992  vim bad_tui.py 
+  993  vim bad_tui.py
+  994  python3 bad_tui.py 
+  995  python3 -m pip install anthropic
+  996  python3 bad_tui.py 
+  997  vim bad_tui.py
+  998  python3 bad_tui.py 
+  999  vim bad_tui.py
+ 1000  python3 bad_tui.py 
+ 1001  vim bad_tui.py
+ 1002  python3 bad_tui.py 
+ 1003  vim bad_tui.py
+ 1004  python3 bad_tui.py 
+ 1005  vim bad_tui.py
+ 1006  cat ~/.bashrc
+ 1007  vim bad_tui.py
+ 1008  python3 bad_tui.py 
+ 1009  vim bad_tui.py
+ 1010  python3 bad_tui.py 
+ 1011  python -m pip install groq
+ 1012  vim bad_tui.py
+ 1013  python3 bad_tui.py 
+ 1014  vim bad_tui.py
+ 1015  python3 bad_tui.py 
+ 1016  vim bad_tui.py
+ 1017  python3 bad_tui.py 
+ 1018  vim bad_tui.py
+ 1019  which ipython
+ 1020  ipython
+ 1021  ls
+ 1022  vim bad_tui.py 
+ 1023  ipython
+ 1024  ls
+ 1025  vim bad_tui.py 
+ 1026  python3 bad_tui.py
+ 1027  vim bad_tui.py 
+ 1028  python3 bad_tui.py
+ 1029  vim bad_tui.py 
+ 1030  python3 bad_tui.py
+ 1031  vim bad_tui.py 
+ 1032  python3 bad_tui.py
+ 1033  vim bad_tui.py 
+ 1034  ls
+ 1035  vim test
+ 1036  ps -aux | grep ollama
+ 1037  ps -aux | grep "ollama serve"
+ 1038  ps -aux | grep "ollama\sserve"
+ 1039  which ollama
+ 1040  vim test
+ 1041  ls
+ 1042  vim test
+ 1043  crontab -e
+ 1044  sudo crontab -e
+ 1045  ps -aux | grep "ollama\sserve"
+ 1046  ps kill 25015
+ 1047  sudo crontab -e
+ 1048  ps -aux | grep "ollama\sserve"
+ 1049  kill 25015
+ 1050  sudo kill 25015
+ 1051  ps -aux | grep "ollama\sserve"
+ 1052  netstat -tuln
+ 1053  [200~sudo fuser -n tcp -v
+ 1054  ~
+ 1055  sudo fuser -n tcp -v
+ 1056  sudo fuser 80/tcp
+ 1057  sudo fuser */tcp
+ 1058  sudo fuser 42069/tcp
+ 1059  sudo crontab -e
+ 1060  ls
+ 1061  ps -aux | grep "ollama\sserve"
+ 1062  kill 31366
+ 1063  sudo kill 31366
+ 1064  ps -aux | grep "ollama\sserve"
+ 1065  sudo crontab -e
+ 1066  ls
+ 1067  ps -aux | grep "ollama\sserve"
+ 1068  sudo kill 31969
+ 1069  cd prototyping/
+ 1070  d
+ 1071  ls
+ 1072  cp jk_synth.ipynb martin2.ipynb
+ 1073  ls
+ 1074  cd ..
+ 1075  ls
+ 1076  mkdir martin-tmp.txt
+ 1077  mv martin-tmp.txt martin
+ 1078  cd martin
+ 1079  history > hist.txt
+ 1080  m hist.txt 
+ 1081  less hist.txt 
+ 1082  clear
+ 1083  cd playground/
+ 1084  cat chat-frontend/build/static/
+ 1085  cat chat-frontend/build/static/js/main.40267aae.js
+ 1086  clear
+ 1087  ls
+ 1088  cat data_relationships.txt 
+ 1089  ls da*
+ 1090  mv da* playground
+ 1091  pwd
+ 1092  lln
+ 1093  ls -ltr
+ 1094  mv prompt-main.txt playground/
+ 1095  cd prototyping/
+ 1096  ls
+ 1097  cat gen_abcd.ipynb 
+ 1098  ls
+ 1099  cd ..
+ 1100  ls
+ 1101  cd playground/
+ 1102  ls data-big.csv 
+ 1103  cat data-big.csv 
+ 1104  cat data_relationships.txt 
+ 1105  ls -a
+ 1106  mkdir playground
+ 1107  cd playground/
+ 1108  mv ~/main-345.zip .
+ 1109  unzip
+ 1110  sudo apt install unzip
+ 1111  unzip main-345.zip 
+ 1112  ls
+ 1113  cd main
+ 1114  ls
+ 1115  cd ..
+ 1116  ls chat-frontend/
+ 1117  cat chat-frontend/README.md 
+ 1118  ls
+ 1119  cd chat-frontend/
+ 1120  ls
+ 1121  ls src/
+ 1122  vim src/App.js
+ 1123  ls
+ 1124  ls src
+ 1125  vim src/index.js
+ 1126  ls
+ 1127  cd ..
+ 1128  ls
+ 1129  ls main
+ 1130  vim main/func.py 
+ 1131  vim main/main.py 
+ 1132  cd ..
+ 1133  ls
+ 1134  cd playground/
+ 1135  ls
+ 1136  ls main
+ 1137  mv main/main.py main/main.py.old
+ 1138  mv main_5am.py main/main.py
+ 1139  cd main
+ 1140  python3 main.py
+ 1141  cd prototyping/
+ 1142  ls
+ 1143  . ./venv/bin/activate
+ 1144  python -m jupyter notebook
+ 1145  cd playground/main
+ 1146  ls
+ 1147  mkdir venv
+ 1148  ls
+ 1149  python3 -m venv venv
+ 1150  source venv/bin/activate
+ 1151  pip3 install -r requirements.txt 
+ 1152  python3 main.py 
+ 1153  ls ../
+ 1154  pwd
+ 1155  python3 main.py 
+ 1156  cd playground/chat-frontend/
+ 1157  npm
+ 1158  node
+ 1159  sudo apt install nodejs
+ 1160  sudo apt install npm
+ 1161  npm start
+ 1162  npm install
+ 1163  npm start
+ 1164  clear
+ 1165  cp playground/* flex-llamas/
+ 1166  cp playground/* flex-llamas/ -r
+ 1167  ls flex-llamas/
+ 1168  git status
+ 1169  c ]d flex-llamas/
+ 1170  cd flex-llamas/
+ 1171  ls
+ 1172  git status
+ 1173  ls -a
+ 1174  cd main
+ 1175  ls -a
+ 1176  cd ..
+ 1177  ls
+ 1178  git status
+ 1179  git add .
+ 1180  cat .gitignore 
+ 1181  git commit -C "a working program"
+ 1182  git commit -c "a working program"
+ 1183  git commit -m "a working program"
+ 1184  ls
+ 1185  cat start_ollama_server.sh 
+ 1186  ls martin
+ 1187  ls
+ 1188  ls playground
+ 1189  ls flex-llamas/
+ 1190  clear
+ 1191  tree
+ 1192  tree -d 2
+ 1193  celar
+ 1194  tree -h
+ 1195  tree --help
+ 1196  tree --help | grep depth
+ 1197  tree --help | grep deep
+ 1198  tree -L 2
+ 1199  tree -L 1
+ 1200  clear
+ 1201  tree -L 1
+ 1202  tree flex-llamas/ -L 1
+ 1203  tree flex-llamas/ -L 2
+ 1204  ls
+ 1205  cd prototyping/
+ 1206  ls
+ 1207  source venv/bin/activate
+ 1208  ls
+ 1209  vim extremely_bad_tui.py
+ 1210  exit
+ 1211  ls
+ 1212  exit
+ 1213  ls
+ 1214  exit
+ 1215  ls
+ 1216  cd flex-llamas/
+ 1217  ls
+ 1218  . venv/bin/activate
+ 1219  cd main
+ 1220  python main.py
+ 1221  ls
+ 1222  cd ..
+ 1223  python main.py
+ 1224  cd playground/
+ 1225  ls
+ 1226  npm start
+ 1227  ls
+ 1228  npm start
+ 1229  ls
+ 1230  cd ..
+ 1231  cd flex-llamas/
+ 1232  lln
+ 1233  ls -ltr
+ 1234  npm start
+ 1235  cd chat-frontend/
+ 1236  ls
+ 1237  npm start
+ 1238  ls
+ 1239  ls
+ 1240  find . -mtime +2
+ 1241  find . -mtime +2 | m
+ 1242  find . -mtime +2 | less
+ 1243  ls
+ 1244  cd prototyping/
+ 1245  lln
+ 1246  ls -ltr
+ 1247  cd ..
+ 1248  ls
+ 1249  cd playground/
+ 1250  ls -ltr
+ 1251  ls
+ 1252  cd main
+ 1253  d
+ 1254  ls
+ 1255  m func.py
+ 1256  less func.py
+ 1257  ls
+ 1258  u
+ 1259  d
+ 1260  ls
+ 1261  cd ..
+ 1262  ls
+ 1263  cd main/
+ 1264  python3 main
+ 1265  ls
+ 1266  .  .venv/bin/activate
+ 1267  .  venv/bin/activate
+ 1268  ls
+ 1269  python3 main.py 
+ 1270  cd ~/flex-llamas/
+ 1271  ls
+ 1272  systemctl | grep daemon
+ 1273  systemctl
+ 1274  ls
+ 1275  exit
+ 1276  ollama serve
+ 1277  OLLAMA_HOST=127.0.0.1 ollama zerve
+ 1278  OLLAMA_HOST=127.0.0.1 ollama serve
+ 1279  OLLAMA_HOST=127.0.0.1:42069 ollama serve
+ 1280  OLLAMA_HOST=127.0.0.1:42069 ollama serve -h
+ 1281  OLLAMA_HOST=127.0.0.1:42069 OLLAMA_DEBUG=1 ollama serve -h
+ 1282  OLLAMA_HOST=127.0.0.1:42069 OLLAMA_DEBUG=1 ollama serve
+ 1283  sudo ufw allow 11434/tcp
+ 1284  ollama serve
+ 1285  sudo ufw allow 8000/tcp
+ 1286  sudo ufw allow 42069/tcp
+ 1287  OLLAMA_HOST=127.0.0.1:42069 OLLAMA_DEBUG=1 ollama serve
+ 1288  ollama --help
+ 1289  ollama list
+ 1290  ollama run llama3.2:latest
+ 1291  OLLAMA_HOST=127.0.0.1:42069 OLLAMA_DEBUG=1 ollama serve
+ 1292  ollama list
+ 1293  OLLAMA_HOST=127.0.0.1:42069 OLLAMA_DEBUG=1 ollama serve ollama3.2:latest
+ 1294  OLLAMA_HOST=127.0.0.1:42069 OLLAMA_DEBUG=1 ollama serv
+ 1295  OLLAMA_HOST=127.0.0.1:42069 OLLAMA_DEBUG=1 ollama serve
+ 1296  ollama pull llama3.2:latest
+ 1297  OLLAMA_HOST=127.0.0.1:42069 OLLAMA_DEBUG=1 ollama serve
+ 1298  ls
+ 1299  OLLAMA_HOST=0.0.0.0:42069 OLLAMA_ORIGINS=* OLLAMA_DEBUG=1 ollama serve
+ 1300  ollama --help
+ 1301  ollama show
+ 1302  ollama show ollama3.2:latest
+ 1303  ollama pull ollama3.2:latest
+ 1304  ollama pull ollama3.2
+ 1305  ls
+ 1306  ls compute-boilerplate/
+ 1307  ls compute-boilerplate/.ollama
+ 1308  ls
+ 1309  which ollama
+ 1310  ollama pull ollama3.2:latest
+ 1311  ollama pull llama3.2:latest
+ 1312  ollama pull --help
+ 1313  pwd
+ 1314  ls ~
+ 1315  ls ~/.ollama
+ 1316  ls ~/.ollama/models
+ 1317  pwd
+ 1318  ls ~/.ollama/models
+ 1319  ls ~/.ollama/models/manifests
+ 1320  ls
+ 1321  mv .ollama .ollama_old
+ 1322  ollama pull llama3.2:latest
+ 1323  ls .ollama
+ 1324  sudo ls
+ 1325  ls
+ 1326  ls compute-boilerplate/
+ 1327  ls flex-llamas/
+ 1328  ls
+ 1329  curl -fsSL https://ollama.com/install.sh | sh
+ 1330  ls .ollama
+ 1331  ollama pull llama3.2:latest
+ 1332  ls .ollama
+ 1333  find / -name manifest
+ 1334  sudo find / -name manifest | grep ollama
+ 1335  sudo find / -name manifest | grep llama
+ 1336  sudo find / -name manifest
+ 1337  ls /usr/bin/manifest
+ 1338  ls /usr/share
+ 1339  ls /usr/share/ollama
+ 1340  ls /usr/share/ollama -lah
+ 1341  ls /usr/share/ollama/.ollama
+ 1342  ls /usr/share/ollama/.ollama/models
+ 1343  ln -s /usr/share/ollama/.ollama ~/.ollama
+ 1344  ollama serve llama3.
+ 1345  OLLAMA_HOST=0.0.0.0:42069 OLLAMA_ORIGINS=* OLLAMA_DEBUG=1 ollama serve
+ 1346  ls
+ 1347  echo "OLLAMA_HOST=0.0.0.0:42069 OLLAMA_ORIGINS=* OLLAMA_DEBUG=1 ollama serve" >> start_ollama_server.sh
+ 1348  ./start_ollama_server.sh
+ 1349  sudo chmod 777 start_ollama_server.sh 
+ 1350  ./start_ollama_server.sh
+ 1351  ps -aux | grep ollama
+ 1352  kill 32047
+ 1353  sudo kill 32047
+ 1354  ps -aux | grep ollama
+ 1355  crontab -e
+ 1356  sudo crontab -e
+ 1357  ls
+ 1358  sudo systemctl restart crond
+ 1359  ls
+ 1360  ps -aux | grep ollama
+ 1361  sudo kill 129323
+ 1362  ps -aux | grep ollama
+ 1363  sudo service cron reload
+ 1364  ps -aux | grep ollama
+ 1365  sudo kill 130905
+ 1366  ps -aux | grep ollama
+ 1367  ps -aux
+ 1368  ps -aux | grep ollama
+ 1369  ps -aux | grep root
+ 1370  ps -aux | grep Olld
+ 1371  ls
+ 1372  cat start_ollama_server.sh 
+ 1373  ./start_ollama_server.sh 
+ 1374  ls
+ 1375  pwd
+ 1376  ./start_ollama_server.sh 
+ 1377  cat start_ollama_server.sh 
+ 1378  ./start_ollama_server.sh 
+ 1379  ls
+ 1380  cd flex-llamas/
+ 1381  ls
+ 1382  cd main
+ 1383  grep -r . "playground"
+ 1384  grep "playground"
+ 1385  grep -r "playground" .
+ 1386  ls
+ 1387  grep --exclude-dir=venv -r "playground" .
+ 1388  exit
+ 1389  ls
+ 1390  ls flex-llamas/
+ 1391  cd flex-llamas/
+ 1392  ls
+ 1393  ls chat-frontend/
+ 1394  ls chat-frontend/build/
+ 1395  ls chat-frontend/build/static/
+ 1396  ls chat-frontend/build/static/js
+ 1397  exit
+ 1398  find . -name main.py -exec ls -l {};
+ 1399  find . -name main.py -exec ls -l {}\;
+ 1400  find . -name main.py -exec ls -l {} +
+ 1401  find . -name main.py -exec ls -l {} + | grep main/main
+ 1402  cd flex-llamas/
+ 1403  git status
+ 1404  ls
+ 1405  ls -l .git
+ 1406  touch .gitignore
+ 1407  git status
+ 1408  ls
+ 1409  flex-llamas/
+ 1410  ls
+ 1411  cd flex-llamas/
+ 1412  ls
+ 1413  vim .
+ 1414  ls
+ 1415  cd chat-frontend/
+ 1416  ls
+ 1417  grep --recursive --ignore-case "API"
+ 1418  ls
+ 1419  grep --recursive --ignore-case "API" src
+ 1420  ls
+ 1421  ls src
+ 1422  ls
+ 1423  vim src/App.js
+ 1424  ls
+ 1425  npm run build
+ 1426  ls
+ 1427  cd ls
+ 1428  ls src
+ 1429  vim src/App.js
+ 1430  npm run build
+ 1431  ls
+ 1432  ls src
+ 1433  cat index.js
+ 1434  ls
+ 1435  cat src/index.js
+ 1436  ls
+ 1437  ls src
+ 1438  vim App.js
+ 1439  vim src/App.js
+ 1440  ls
+ 1441  npm run build
+ 1442  vim src/App.js
+ 1443  npm run build
+ 1444  htop
+ 1445  htop
+ 1446  ls
+ 1447  cd flex-llamas/
+ 1448  ls
+ 1449  cd main
+ 1450  ls
+ 1451  vim main.py
+ 1452  ls
+ 1453  vim func.py 
+ 1454  ls
+ 1455  vim main.py
+ 1456  ls
+ 1457  cd ..
+ 1458  ls
+ 1459  cd chat-frontend/
+ 1460  ls
+ 1461  cd src
+ 1462  ls
+ 1463  vim index.js
+ 1464  which aider
+ 1465  ls
+ 1466  find generated_data.csv
+ 1467  find . -name generated_data.csv
+ 1468  cd prototyping/
+ 1469  mv generated_data.csv generated_data_org.csv
+ 1470  ls
+ 1471  cd flex-llamas/
+ 1472  ls
+ 1473  cd chat-frontend/
+ 1474  ls
+ 1475  npm run start
+ 1476  ls
+ 1477  npm run build
+ 1478  ls
+ 1479  tmxu ls
+ 1480  tmux ls
+ 1481  tmux attach -t britannio
+ 1482  ls
+ 1483  cd flex-llamas/
+ 1484  ls
+ 1485  cd chat-frontend/
+ 1486  npm run build
+ 1487  npm install react-icons
+ 1488  npm run build
+ 1489  ls
+ 1490  cd playground/
+ 1491  cd ..
+ 1492  cd flex-llamas/
+ 1493  ls
+ 1494  source venv/bin/activate
+ 1495  ls
+ 1496  tree .
+ 1497  tree . -L 2
+ 1498  ls
+ 1499  ls chat-frontend/
+ 1500  ls chat-frontend/buidl
+ 1501  ls chat-frontend/build
+ 1502  ls
+ 1503  ls main
+ 1504  vim main.py
+ 1505  vim main/main.py
+ 1506  ls
+ 1507  python3 -m pip install fastapi
+ 1508  ls
+ 1509  ls main
+ 1510  python3 -m pip install -r main/requirements.txt 
+ 1511  python3 -m pip install langchain_community
+ 1512  ls
+ 1513  cd main
+ 1514  ls
+ 1515  python3 main.py
+ 1516  ps -aux | grep main.py
+ 1517  ls
+ 1518  vim main.py
+ 1519  ls
+ 1520  cd ..
+ 1521  ksl
+ 1522  ls
+ 1523  cd hat
+ 1524  cd chat-frontend/
+ 1525  ls
+ 1526  npm build
+ 1527  npm run buidl
+ 1528  npm run build
+ 1529  ls
+ 1530  ls build
+ 1531  ls -lah build
+ 1532  cd ..
+ 1533  l
+ 1534  cd main/
+ 1535  ls
+ 1536  python main.py
+ 1537  ls
+ 1538  vim main.py
+ 1539  ls
+ 1540  python main.py
+ 1541  python main.py --help
+ 1542  python main.py
+ 1543  ps -aux | grep main.py
+ 1544  python main.py
+ 1545  python -m pip install ratelimit
+ 1546  python main.py
+ 1547  which uvicorn
+ 1548  uvicorn main.py
+ 1549  uvicorn main:main.py
+ 1550  ls
+ 1551  vim main.py
+ 1552  uvicorn main:app
+ 1553  uvicorn main:app --port=8080
+ 1554  ls /home/nebius/flex-llamas/chat-frontend/build/
+ 1555  ls /home/nebius/flex-llamas/chat-frontend/build/static/
+ 1556  python main.py
+ 1557  ls
+ 1558  vim main.py
+ 1559  python main.py
+ 1560  ls
+ 1561  cd martin
+ 1562  ls
+ 1563  history > hist2.txt
