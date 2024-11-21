@@ -7,3 +7,5 @@ Most git commits are coming from Rifaat Samawi's GitHub account. These code comm
 
 **Private Repository**
 This repository contains all the work done. Go to [public repository](https://github.com/mszummer/flex-llamas) to view hackathon submission.
+
+[![Demo Video Link](https://img.youtube.com/vi/ZUcLKNa0CIs/0.jpg)]([https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE](https://www.youtube.com/watch?v=ZUcLKNa0CIs))
